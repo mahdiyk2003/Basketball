@@ -1,0 +1,1136 @@
+player id,player_name,height,weight,born_date,experience
+1000,Tyrese Maxey,188,200,11/4/2000,6 years
+1001,Giannis Antetokounmpo,211,250,12/6/1994,13 years
+1002,Ty Jerome,196,195,7/8/1997,7 years
+1003,Kevin Durant,211,240,9/29/1988,18 years
+1004,Tyler Herro,196,195,1/20/2000,7 years
+1005,Alperen Şengün,211,243,7/25/2002,5 years
+1006,Jaylen Brown,198,223,10/24/1996,10 years
+1007,Caleb Wilson,208,215,7/18/2006,Rookie
+1008,Trae Young,188,164,9/19/1998,8 years
+1009,Devin Booker,196,206,10/30/1996,11 years
+1010,Joel Embiid,213,270,3/16/1994,10 years
+1011,Jalen Johnson,203,219,12/18/2001,5 years
+1012,Nickeil Alexander-Walker,196,205,9/2/1998,7 years
+1013,Anthony Davis,208,253,3/11/1993,14 years
+1014,Jaime Jaquez Jr.,198,225,2/18/2001,3 years
+1015,Zion Williamson,198,284,7/6/2000,6 years
+1016,Dejounte Murray,193,180,9/19/1996,9 years
+1017,Anthony Edwards,193,225,8/5/2001,6 years
+1018,Dylan Harper,196,215,3/2/2006,1 year
+1019,Naz Reid,206,264,8/26/1999,7 years
+1020,Victor Wembanyama,224,235,1/4/2004,3 years
+1021,Stephon Castle,198,215,11/1/2004,2 years
+1022,Brandon Miller,201,200,11/22/2002,3 years
+1023,Norman Powell,190,215,5/25/1993,11 years
+1024,Darius Garland,185,192,1/26/2000,7 years
+1025,Yaxel Lendeborg,206,241,9/30/2002,Rookie
+1026,Julius Randle,206,250,11/29/1994,12 years
+1027,Donovan Mitchell,188,215,9/7/1996,9 years
+1028,Michael Porter Jr.,208,218,6/29/1998,7 years
+1029,Paul George,203,230,5/2/1990,16 years
+1030,Pascal Siakam,203,245,4/2/1994,10 years
+1031,Amen Thompson,201,200,1/30/2003,3 years
+1032,Grayson Allen,190,198,10/8/1995,8 years
+1033,De'Aaron Fox,190,185,12/20/1997,9 years
+1034,Scottie Barnes,203,237,8/1/2001,5 years
+1035,Luka Dončić,203,230,2/28/1999,8 years
+1036,Kyshawn George,203,200,12/12/2003,2 years
+1037,Davion Mitchell,183,200,9/5/1998,5 years
+1038,Austin Reaves,196,197,5/29/1998,5 years
+1039,Jabari Smith Jr.,211,220,5/13/2003,4 years
+1040,Aaron Wiggins,196,190,1/2/1999,5 years
+1041,Zach LaVine,196,200,3/10/1995,12 years
+1042,Paolo Banchero,208,250,11/12/2002,4 years
+1043,Dyson Daniels,201,199,3/17/2003,4 years
+1044,Shai Gilgeous-Alexander,198,195,7/12/1998,8 years
+1045,CJ McCollum,190,190,9/19/1991,13 years
+1046,Jayson Tatum,203,210,3/3/1998,9 years
+1047,Nikola Jokić,211,284,2/19/1995,11 years
+1048,Walker Kessler,218,245,7/26/2001,4 years
+1049,Jamal Murray,193,215,2/23/1997,9 years
+1050,Dennis Schröder,185,175,9/15/1993,13 years
+1051,Saddiq Bey,203,215,4/9/1999,5 years
+1052,Stephen Curry,188,200,3/14/1988,17 years
+1053,Cooper Flagg,206,205,12/21/2006,1 year
+1054,Trey Murphy III,203,206,6/18/2000,5 years
+1055,Darius Acuff Jr.,188,190,11/16/2006,Rookie
+1056,Matas Buzelis,203,196,10/13/2004,2 years
+1057,Deni Avdija,203,228,1/3/2001,6 years
+1058,Damian Lillard,188,200,7/15/1990,13 years
+1059,RJ Barrett,198,214,6/14/2000,7 years
+1060,Jalen Smith,203,244,3/16/2000,6 years
+1061,Wendell Carter Jr.,208,270,4/16/1999,8 years
+1062,P.J. Washington,201,230,8/23/1998,7 years
+1063,Keyonte George,193,185,11/8/2003,3 years
+1064,Tyrese Haliburton,196,185,2/29/2000,5 years
+1065,Tre Johnson,196,190,3/7/2006,1 year
+1066,Naji Marshall,198,220,1/24/1998,6 years
+1067,Domantas Sabonis,208,240,5/3/1996,10 years
+1068,Karl-Anthony Towns,213,248,11/15/1995,11 years
+1069,Jalen Brunson,188,190,8/31/1996,8 years
+1070,Franz Wagner,208,220,8/27/2001,5 years
+1071,Bam Adebayo,206,260,7/18/1997,9 years
+1072,Kyrie Irving,188,195,3/23/1992,14 years
+1073,Jaren Jackson Jr.,208,242,9/15/1999,8 years
+1074,Kawhi Leonard,198,225,6/29/1991,14 years
+1075,Brook Lopez,216,282,4/1/1988,18 years
+1076,Derik Queen,206,250,12/27/2004,1 year
+1077,Cade Cunningham,198,220,9/25/2001,5 years
+1078,Evan Mobley,211,215,6/18/2001,5 years
+1079,Duncan Robinson,201,215,4/22/1994,8 years
+1080,Brandon Williams,185,190,11/22/1999,4 years
+1081,Toumani Camara,201,230,5/8/2000,3 years
+1082,VJ Edgecombe,193,190,7/30/2005,1 year
+1083,Kel'el Ware,213,230,4/20/2004,2 years
+1084,Jarrett Allen,206,243,4/21/1998,9 years
+1085,De'Anthony Melton,188,201,5/28/1998,8 years
+1086,Immanuel Quickley,188,190,6/17/1999,6 years
+1087,Ryan Rollins,190,180,7/3/2002,4 years
+1088,Marcus Sasser,185,195,9/21/2000,3 years
+1089,Kasparas Jakučionis,196,200,5/29/2006,1 year
+1090,Tre Jones,185,190,1/8/2000,6 years
+1091,Lauri Markkanen,216,240,5/22/1997,9 years
+1092,Andrew Nembhard,193,191,1/16/2000,4 years
+1093,LaMelo Ball,201,180,8/22/2001,6 years
+1094,Tari Eason,203,215,5/10/2001,4 years
+1095,Kyle Kuzma,203,221,7/24/1995,9 years
+1096,Obi Toppin,206,220,3/4/1998,6 years
+1097,Jalen Williams,196,211,4/14/2001,4 years
+1098,Cameron Boozer,208,250,7/18/2007,Rookie
+1099,Jaden McDaniels,206,185,9/29/2000,6 years
+1100,LeBron James,206,250,12/30/1984,23 years
+1101,Bobby Portis,206,250,2/10/1995,11 years
+1102,OG Anunoby,201,240,7/17/1997,9 years
+1103,Ayo Dosunmu,193,201,1/17/2000,5 years
+1104,Graham Ike,206,251,8/3/2002,Rookie
+1105,Leonard Miller,208,220,11/26/2003,3 years
+1106,Klay Thompson,196,200,2/8/1990,13 years
+1107,Precious Achiuwa,203,243,9/19/1999,6 years
+1108,John Collins,206,226,9/23/1997,9 years
+1109,Bilal Coulibaly,201,195,7/26/2004,3 years
+1110,Jaylen Wells,201,206,8/26/2003,2 years
+1111,Derrick White,193,190,7/2/1994,9 years
+1112,A.J. Green,193,190,9/27/1999,4 years
+1113,James Harden,196,220,8/26/1989,17 years
+1114,Devin Vassell,196,200,8/23/2000,6 years
+1115,Keaton Wagler,198,175,2/3/2007,Rookie
+1116,Justin Champagnie,198,206,6/29/2001,5 years
+1117,Aaron Gordon,203,235,9/16/1995,12 years
+1118,Julian Champagnie,201,217,6/29/2001,4 years
+1119,Max Christie,196,190,2/10/2003,4 years
+1120,Egor Dëmin,203,200,3/3/2006,1 year
+1121,Moussa Diabaté,208,210,1/21/2002,4 years
+1122,Jalen Duren,208,250,11/18/2003,4 years
+1123,Rui Hachimura,203,230,2/8/1998,7 years
+1124,Chet Holmgren,216,208,5/1/2002,3 years
+1125,Ja Morant,188,174,8/10/1999,7 years
+1126,Onyeka Okongwu,208,240,12/11/2000,6 years
+1127,Zaccharie Risacher,203,200,4/8/2005,2 years
+1128,Dillon Brooks,201,225,1/22/1996,9 years
+1129,Brayden Burries,193,205,9/18/2005,Rookie
+1130,Kentavious Caldwell-Pope,196,204,2/18/1993,13 years
+1131,DeMar DeRozan,198,220,8/7/1989,17 years
+1132,Jeremiah Fears,190,190,10/14/2006,1 year
+1133,Keldon Johnson,198,220,10/11/1999,7 years
+1134,Paul Reed,206,210,6/14/1999,6 years
+1135,Ivica Zubac,213,240,3/18/1997,10 years
+1136,Miles Bridges,201,225,3/21/1998,7 years
+1137,Luguentz Dort,193,220,4/19/1999,7 years
+1138,Javonte Green,196,205,7/23/1993,7 years
+1139,Josh Hart,196,215,3/6/1995,9 years
+1140,Derrick Jones Jr.,198,210,2/15/1997,10 years
+1141,Pelle Larsson,196,215,2/23/2001,2 years
+1142,Bennedict Mathurin,196,210,6/19/2002,4 years
+1143,Jared McCain,190,195,2/20/2004,2 years
+1144,Darryn Peterson,198,205,1/17/2007,Rookie
+1145,Gui Santos,201,218,6/22/2002,3 years
+1146,Desmond Bane,198,215,6/25/1998,6 years
+1147,Quentin Grimes,196,207,5/8/2000,5 years
+1148,Jonathan Kuminga,201,225,10/6/2002,5 years
+1149,Miles McBride,188,195,9/8/2000,5 years
+1150,Alex Sarr,213,205,4/26/2005,2 years
+1151,Terrence Shannon Jr.,198,215,7/30/2000,2 years
+1152,Myles Turner,211,250,3/24/1996,11 years
+1153,Andrew Wiggins,198,210,2/23/1995,12 years
+1154,Ziaire Williams,206,185,9/12/2001,5 years
+1155,Christian Braun,198,220,4/17/2001,4 years
+1156,Bub Carrington,193,190,7/21/2005,2 years
+1157,Jalen Green,193,186,2/9/2002,5 years
+1158,Jaxson Hayes,213,220,5/23/2000,7 years
+1159,Buddy Hield,193,220,12/17/1992,10 years
+1160,Jordan Poole,193,194,6/19/1999,7 years
+1161,Reed Sheppard,188,185,6/24/2004,2 years
+1162,Deandre Ayton,213,252,7/23/1998,8 years
+1163,Trevon Brazile,208,220,1/7/2003,Rookie
+1164,Sergio de Larrea,196,175,12/4/2005,Rookie
+1165,Jerami Grant,201,213,3/12/1994,12 years
+1166,Payton Pritchard,185,195,1/28/1998,6 years
+1167,Jrue Holiday,193,220,6/12/1990,17 years
+1168,Isaiah Joe,193,165,7/2/1999,6 years
+1169,Morez Johnson Jr.,206,250,1/25/2006,Rookie
+1170,Jock Landale,211,255,10/25/1995,5 years
+1171,Jalen Suggs,196,205,6/3/2001,5 years
+1172,Fred VanVleet,183,197,2/25/1994,9 years
+1173,Bogdan Bogdanović,196,225,8/18/1992,9 years
+1174,Donovan Clingan,218,280,2/23/2004,2 years
+1175,Tristan Da Silva,203,217,5/15/2001,2 years
+1176,Rudy Gobert,216,258,6/26/1992,13 years
+1177,Scoot Henderson,190,207,2/3/2004,3 years
+1178,Mario Hezonja,203,220,2/25/1995,5 years
+1179,Isaiah Jackson,203,205,1/10/2002,5 years
+1180,Yves Missi,211,235,5/14/2004,2 years
+1181,Gary Payton II,188,195,12/1/1992,10 years
+1182,Will Richard,190,210,12/24/2002,1 year
+1183,Anfernee Simons,190,200,6/8/1999,8 years
+1184,Peyton Watson,203,200,9/11/2002,4 years
+1185,Ace Bailey,206,200,8/13/2006,1 year
+1186,Sidy Cissoko,198,220,4/2/2004,3 years
+1187,Gradey Dick,201,200,11/20/2003,3 years
+1188,Daniel Gafford,208,265,10/1/1998,7 years
+1189,Daniss Jenkins,193,165,8/17/2001,2 years
+1190,Brandin Podziemski,193,205,2/25/2003,3 years
+1191,Neemias Queta,213,248,7/13/1999,5 years
+1192,Jaylon Tyson,198,215,12/2/2002,2 years
+1193,Isaiah Collier,193,210,10/8/2004,2 years
+1194,Josh Giddey,201,214,10/10/2002,5 years
+1195,Sam Hauser,201,217,12/8/1997,5 years
+1196,Scotty Pippen Jr.,188,170,11/10/2000,4 years
+1197,Ja'Kobe Walter,193,180,9/4/2004,2 years
+1198,Alex Caruso,196,186,2/28/1994,9 years
+1199,Tim Hardaway Jr.,196,205,3/16/1992,13 years
+1200,Ryan Kalkbrenner,216,256,1/17/2002,1 year
+1201,Ajay Mitchell,193,190,6/25/2002,2 years
+1202,Isaac Okoro,193,225,1/26/2001,6 years
+1203,Matisse Thybulle,196,202,3/4/1997,7 years
+1204,Georges Niang,198,230,6/17/1993,9 years
+1205,Day'Ron Sharpe,208,265,11/6/2001,5 years
+1206,Marcus Smart,190,220,3/6/1994,12 years
+1207,Ausar Thompson,201,205,1/30/2003,3 years
+1208,Cason Wallace,190,195,11/7/2003,3 years
+1209,Robert Williams,206,249,10/17/1997,8 years
+1210,Mikel Brown Jr.,196,190,4/3/2006,Rookie
+1211,Kris Dunn,190,205,3/18/1994,10 years
+1212,Zach Edey,221,305,5/14/2002,2 years
+1213,GG Jackson II,206,210,12/17/2004,3 years
+1214,Quenton Jackson,193,173,9/15/1998,4 years
+1215,Keegan Murray,203,225,8/19/2000,4 years
+1216,Collin Murray-Boyles,201,245,6/10/2005,1 year
+1217,Royce O'Neale,198,226,6/5/1993,9 years
+1218,Tidjane Salaün,208,207,8/10/2005,2 years
+1219,Cam Spencer,190,205,4/6/2000,2 years
+1220,Jamison Battle,201,220,5/10/2001,2 years
+1221,Noah Clowney,208,210,7/14/2004,3 years
+1222,Keon Ellis,193,175,1/8/2000,4 years
+1223,Svi Mykhailiuk,201,205,6/10/1997,8 years
+1224,Landry Shamet,196,190,3/13/1997,8 years
+1225,Emanuel Sharp,190,212,3/7/2004,Rookie
+1226,Moritz Wagner,211,245,4/26/1997,8 years
+1227,LJ Cryer,183,202,10/9/2001,1 year
+1228,Jordan Goodwin,190,215,10/23/1998,5 years
+1229,Sandro Mamukelashvili,206,240,5/23/1999,5 years
+1230,Sam Merrill,193,205,5/15/1996,6 years
+1231,Brice Sensabaugh,198,225,10/30/2003,3 years
+1232,Collin Gillespie,185,195,6/25/1999,3 years
+1233,Luke Kennard,196,206,6/24/1996,9 years
+1234,Corey Kispert,198,224,3/3/1999,5 years
+1235,Luke Kornet,216,250,7/15/1995,9 years
+1236,Khaman Maluach,216,250,9/14/2006,1 year
+1237,Jose Alvarado,183,179,4/12/1998,5 years
+1238,Charles Bassey,208,230,10/28/2000,5 years
+1239,Goga Bitadze,211,250,7/20/1999,7 years
+1240,Moussa Cissé,211,220,9/10/2002,1 year
+1241,Luka Garza,208,243,12/27/1998,5 years
+1242,Isaiah Hartenstein,213,250,5/5/1998,8 years
+1243,De'Andre Hunter,201,221,12/2/1997,7 years
+1244,Chaney Johnson,201,220,6/20/2002,1 year
+1245,Herbert Jones,201,206,10/6/1998,5 years
+1246,Jake LaRavia,201,235,11/3/2001,4 years
+1247,Trey Lyles,206,234,11/5/1995,10 years
+1248,Karlo Matković,208,231,3/30/2001,2 years
+1249,Baylor Scheierman,198,205,9/26/2000,2 years
+1250,Joan Beringer,211,230,11/11/2006,1 year
+1251,Trayce Jackson-Davis,206,245,2/22/2000,3 years
+1252,DeAndre Jordan,211,265,7/21/1988,18 years
+1253,Nikola Jović,208,245,6/9/2003,4 years
+1254,Aday Mara,218,255,4/7/2005,Rookie
+1255,Aaron Nesmith,196,215,10/16/1999,6 years
+1256,Jakob Poeltl,213,253,10/15/1995,10 years
+1257,Quinten Post,213,238,3/21/2000,2 years
+1258,Ousmane Dieng,206,185,5/21/2003,4 years
+1259,Ryan Dunn,201,216,1/7/2003,2 years
+1260,Ron Holland,203,206,7/7/2005,2 years
+1261,Kevin Huerter,198,190,8/27/1998,8 years
+1262,Oso Ighodaro,211,235,7/14/2002,2 years
+1263,Khris Middleton,201,222,8/12/1991,14 years
+1264,Jase Richardson,185,180,10/16/2005,1 year
+1265,Mitchell Robinson,213,240,4/1/1998,8 years
+1266,Jabari Walker,201,237,7/30/2002,4 years
+1267,Jaylin Williams,206,240,6/29/2002,4 years
+1268,Marvin Bagley III,208,235,3/14/1999,8 years
+1269,Colin Castleton,208,250,5/25/2000,3 years
+1270,Cedric Coward,196,206,9/11/2003,1 year
+1271,Kingston Flemings,193,190,1/3/2007,Rookie
+1272,Allen Graves,206,225,7/28/2006,Rookie
+1273,Draymond Green,198,235,3/4/1990,14 years
+1274,Kelly Oubre Jr.,203,210,12/9/1995,11 years
+1275,Daeqwon Plowden,193,216,8/29/1998,2 years
+1276,Nick Richards,211,255,11/29/1997,6 years
+1277,Kobe Sanders,203,207,5/30/2002,1 year
+1278,Jamal Shead,185,200,6/24/2002,2 years
+1279,Dean Wade,206,228,11/20/1996,7 years
+1280,Nique Clifford,196,210,2/9/2002,1 year
+1281,Bones Hyland,188,169,9/14/2000,5 years
+1282,Sion James,196,220,12/4/2002,1 year
+1283,Kevon Looney,206,222,2/6/1996,11 years
+1284,Hannes Steinbach,211,248,5/1/2006,Rookie
+1285,Nolan Traoré,190,185,5/28/2006,1 year
+1286,Kenrich Williams,201,210,12/2/1994,8 years
+1287,Ryan Conwell,193,215,6/15/2004,Rookie
+1288,Noa Essengue,203,194,12/18/2006,1 year
+1289,Ja'Kobi Gillespie,185,186,3/10/2004,Rookie
+1290,Yang Hansen,216,270,6/26/2005,1 year
+1291,Jett Howard,203,215,9/14/2003,3 years
+1292,Cameron Johnson,203,210,3/3/1996,7 years
+1293,Tobi Lawal,203,215,5/1/2003,Rookie
+1294,Ryan Nembhard,180,180,3/10/2003,1 year
+1295,Tyrese Proctor,193,185,4/1/2004,1 year
+1296,Duop Reath,206,245,6/26/1996,3 years
+1297,Collin Sexton,190,190,1/4/1999,8 years
+1298,Jarace Walker,201,235,9/4/2003,3 years
+1299,Jordan Walsh,198,205,3/3/2004,3 years
+1300,Steven Adams,211,265,7/20/1993,12 years
+1301,Mikal Bridges,198,209,8/30/1996,8 years
+1302,Carter Bryant,198,220,11/26/2005,1 year
+1303,Jordan Clarkson,196,194,6/7/1992,12 years
+1304,Alpha Diallo,201,210,6/29/1997,Rookie
+1305,Myron Gardner,196,225,5/21/2001,1 year
+1306,Tyus Jones,183,196,5/10/1996,11 years
+1307,Liam McNeeley,201,210,10/10/2005,1 year
+1308,Baba Miller,211,204,2/7/2004,Rookie
+1309,Josh Minott,203,205,11/25/2002,4 years
+1310,Koa Peat,203,235,1/20/2007,Rookie
+1311,Andre Drummond,211,279,8/10/1993,14 years
+1312,Micah Potter,206,248,4/6/1998,5 years
+1313,Jalen Slawson,201,215,10/22/1999,2 years
+1314,Isaiah Stewart,203,250,5/22/2001,6 years
+1315,Cam Whitmore,198,230,7/8/2004,3 years
+1316,Harrison Barnes,201,225,5/30/1992,14 years
+1317,Jamaree Bouyea,188,180,6/27/1999,4 years
+1318,Walter Clayton,193,195,3/6/2003,1 year
+1319,Isaiah Crawford,198,220,11/1/2001,2 years
+1320,Zuby Ejiofor,206,240,4/20/2004,Rookie
+1321,Kyle Filipowski,211,250,11/7/2003,2 years
+1322,Dorian Finney-Smith,201,220,5/4/1993,10 years
+1323,Jaden Hardy,190,198,7/5/2002,4 years
+1324,DaRon Holmes,206,225,8/15/2002,1 year
+1325,Al Horford,203,258,6/3/1986,19 years
+1326,Alijah Martin,188,210,12/26/2001,1 year
+1327,Asa Newell,208,220,10/5/2005,1 year
+1328,Jalen Pickett,188,202,10/22/1999,3 years
+1329,Craig Porter Jr.,185,180,2/26/2000,3 years
+1330,Jaylin Sellers,196,205,6/3/2003,Rookie
+1331,Ben Sheppard,198,190,7/16/2001,3 years
+1332,Dru Smith,188,200,12/30/1997,4 years
+1333,Pat Spencer,188,205,7/4/1996,3 years
+1334,Christian Anderson Jr.,183,165,4/2/2006,Rookie
+1335,Tobe Awaka,203,250,1/30/2004,Rookie
+1336,Adem Bona,208,235,3/28/2003,2 years
+1337,Clint Capela,208,256,5/18/1994,12 years
+1338,Zach Collins,206,240,11/19/1997,8 years
+1339,Bryce Hopkins,201,225,9/7/2002,Rookie
+1340,Bronny James,188,210,10/6/2004,2 years
+1341,David Jones García,193,210,11/24/2001,1 year
+1342,Malevy Leons,206,210,9/23/1999,2 years
+1343,Chris Mañon,193,209,12/9/2001,1 year
+1344,Tarris Reed Jr.,211,265,8/5/2003,Rookie
+1345,Will Riley,206,180,2/10/2006,1 year
+1346,Nate Ament,208,207,12/10/2006,Rookie
+1347,Jaylen Clark,196,205,10/13/2001,2 years
+1348,Rasheer Fleming,206,240,7/10/2004,1 year
+1349,Alex Karaban,203,220,11/11/2002,Rookie
+1350,Vít Krejčí,203,195,6/19/2000,5 years
+1351,Kyle Anderson,203,230,9/20/1993,12 years
+1352,Brooks Barnhizer,196,230,3/2/2002,1 year
+1353,Reece Beekman,190,190,10/8/2001,1 year
+1354,Jaden Bradley,190,200,9/14/2003,Rookie
+1355,Kobe Brown,201,250,1/1/2000,3 years
+1356,Maliq Brown,206,225,11/16/2003,Rookie
+1357,Jamal Cain,201,191,3/20/1999,4 years
+1358,Jevon Carter,183,190,9/14/1995,8 years
+1359,Cam Christie,196,190,7/24/2005,2 years
+1360,Justin Edwards,201,217,12/16/2003,2 years
+1361,Isaiah Evans,198,175,12/6/2005,Rookie
+1362,Simone Fontecchio,201,200,12/9/1995,4 years
+1363,Anthony Gill,201,230,10/17/1992,6 years
+1364,Hugo González,198,200,2/5/2006,1 year
+1365,PJ Hall,203,245,2/21/2002,2 years
+1366,Jay Huff,216,240,8/25/1998,5 years
+1367,Jayson Kent,203,215,2/3/2002,1 year
+1368,Caleb Love,190,212,9/27/2001,1 year
+1369,Tre Mann,193,178,2/3/2001,5 years
+1370,Jordan McLaughlin,180,185,4/9/1996,7 years
+1371,Jonathan Mogbo,206,225,10/29/2001,2 years
+1372,Malik Monk,190,200,2/4/1998,9 years
+1373,Alex Morales,198,195,11/21/1997,1 year
+1374,Kris Murray,203,218,8/19/2000,3 years
+1375,Larry Nance Jr.,198,245,1/1/1993,11 years
+1376,Josh Okogie,193,213,9/1/1998,8 years
+1377,Labaron Philon Jr.,193,177,11/24/2005,Rookie
+1378,Jericho Sims,208,250,10/20/1998,5 years
+1379,Tolu Smith,211,254,7/26/2000,2 years
+1380,Bennett Stirtz,193,180,10/3/2003,Rookie
+1381,Bruce Thornton,188,215,9/14/2003,Rookie
+1382,Nikola Vučević,206,265,10/24/1990,15 years
+1383,Cody Williams,203,190,11/20/2004,2 years
+1384,James Wiseman,211,240,3/31/2001,5 years
+1385,Brandon Ingram,203,190,9/2/1997,10 years
+1386,Kon Knueppel,198,215,8/3/2005,1 year
+1387,Shaedon Sharpe,196,210,5/30/2003,4 years
+1388,Donte DiVincenzo,193,203,1/31/1997,8 years
+1389,Russell Westbrook,193,200,11/12/1988,
+1390,Anthony Black,201,200,1/20/2004,3 years
+1391,Maxime Raynaud,216,268,4/7/2003,1 year
+1392,Coby White,193,210,2/16/2000,7 years
+1393,Tobias Harris,203,226,7/15/1992,15 years
+1394,Nic Claxton,211,215,4/17/1999,7 years
+1395,Jimmy Butler,198,230,9/14/1989,15 years
+1396,Moses Moody,196,215,5/31/2002,5 years
+1397,Mark Williams,216,240,12/16/2001,4 years
+1398,Kevin Porter Jr.,196,203,5/4/2000,6 years
+1399,Bruce Brown,193,202,8/15/1996,8 years
+1400,Santi Aldama,213,215,1/10/2001,5 years
+1401,Jordan Miller,196,194,1/23/2000,3 years
+1402,Jonas Valančiūnas,211,265,5/6/1992,14 years
+1403,Cam Thomas,190,210,10/13/2001,5 years
+1404,Dominick Barlow,206,224,5/26/2003,4 years
+1405,Kristaps Porziņģis,218,240,8/2/1995,10 years
+1406,Olivier-Maxence Prosper,201,230,7/3/2002,3 years
+1407,Gary Trent Jr.,196,204,1/18/1999,8 years
+1408,Felix Okpara,211,235,4/20/2004,Rookie
+1409,Nick Martinelli,201,220,4/20/2004,Rookie
+1410,Jae'Sean Tate,193,230,10/28/1995,6 years
+1411,T.J. McConnell,185,190,3/25/1992,11 years
+1412,Danny Wolf,211,250,5/5/2004,1 year
+1413,Patrick Williams,198,235,8/26/2001,6 years
+1414,Terance Mann,198,215,10/18/1996,7 years
+1415,Jusuf Nurkić,211,290,8/23/1994,12 years
+1416,Caris LeVert,201,205,8/25/1994,10 years
+1417,Tristan Vukcevic,213,220,3/11/2003,3 years
+1418,Taylor Hendricks,206,215,11/22/2003,3 years
+1419,Julian Strawther,198,205,4/18/2002,3 years
+1420,Rob Dillingham,188,175,1/4/2005,2 years
+1421,Drake Powell,196,195,9/8/2005,1 year
+1422,Javon Small,185,190,12/19/2002,1 year
+1423,Nae'Qwan Tomlin,203,210,12/10/2000,2 years
+1424,Guerschon Yabusele,201,265,12/17/1995,4 years
+1425,Thomas Bryant,206,248,7/31/1997,9 years
+1426,Jamir Watkins,198,210,7/6/2001,1 year
+1427,Spencer Jones,201,225,6/14/2001,2 years
+1428,Trendon Watford,203,244,11/9/2000,5 years
+1429,Jalen Wilson,198,220,11/4/2000,3 years
+1430,Mouhamed Gueye,211,210,11/9/2002,3 years
+1431,Bryce McGowens,198,190,11/8/2002,4 years
+1432,Devin Carter,188,195,3/18/2002,2 years
+1433,Sharife Cooper,183,176,6/11/2001,2 years
+1434,Ben Saraf,198,200,4/14/2006,1 year
+1435,Rayan Rupert,201,205,5/31/2004,3 years
+1436,Jaden Ivey,190,195,2/13/2002,4 years
+1437,Ochai Agbaji,196,215,4/20/2000,4 years
+1438,Aaron Holiday,183,185,9/30/1996,8 years
+1439,Vince Williams Jr.,193,205,8/30/2000,4 years
+1440,Nicolas Batum,201,230,12/14/1988,18 years
+1441,Tyrese Martin,198,215,3/7/1999,3 years
+1442,Jarred Vanderbilt,203,214,4/3/1999,8 years
+1443,Tyler Kolek,188,195,3/27/2001,2 years
+1444,D'Angelo Russell,190,193,2/23/1996,11 years
+1445,Micah Peavy,201,215,7/16/2001,1 year
+1446,Jordan Hawkins,196,190,4/29/2002,3 years
+1447,Pete Nance,206,225,2/19/2000,3 years
+1448,Grant Williams,201,236,11/30/1998,7 years
+1449,Josh Green,198,200,11/16/2000,6 years
+1450,Kevin Love,208,251,9/7/1988,18 years
+1451,John Konchar,196,210,3/22/1996,7 years
+1452,Mohamed Diawara,206,225,4/29/2005,1 year
+1453,Branden Carlson,213,220,6/14/1999,2 years
+1454,Taurean Prince,198,218,3/22/1994,10 years
+1455,Dylan Cardwell,208,255,12/16/2001,1 year
+1456,Cole Anthony,188,185,5/15/2000,6 years
+1457,Gabe Vincent,188,200,6/14/1996,7 years
+1458,Dalton Knecht,198,215,4/19/2001,2 years
+1459,Caleb Martin,196,205,9/28/1995,7 years
+1460,Noah Penda,201,215,1/7/2005,1 year
+1461,Ethan Thompson,193,195,5/4/1999,1 year
+1462,Drew Eubanks,208,245,2/1/1997,8 years
+1463,Oscar Tshiebwe,203,255,11/27/1999,3 years
+1464,Dwight Powell,208,240,7/20/1991,12 years
+1465,Jahmai Mashack,193,203,11/10/2002,1 year
+1466,Zeke Nnaji,208,240,1/9/2001,6 years
+1467,Tyson Etienne,183,200,9/17/1999,2 years
+1468,Keaton Wallace,190,185,2/26/1999,2 years
+1469,Nick Smith Jr.,188,185,4/18/2004,3 years
+1470,Johnny Furphy,203,200,12/8/2004,2 years
+1471,Elijah Harkless,190,195,2/3/2000,2 years
+1472,Yanic Konan Niederhäuser,211,242,3/14/2003,1 year
+1473,Dalen Terry,198,210,7/12/2002,4 years
+1474,Taelon Peter,190,185,2/27/2002,1 year
+1475,Blake Hinson,203,230,12/26/1999,1 year
+1476,Kennedy Chandler,183,170,9/16/2002,2 years
+1477,Doug McDermott,201,225,1/3/1992,12 years
+1478,Cameron Payne,188,183,8/8/1994,11 years
+1479,Kam Jones,193,200,2/25/2002,1 year
+1480,Tony Bradley,208,248,1/8/1998,8 years
+1481,Lonzo Ball,196,190,10/27/1997,7 years
+1482,AJ Johnson,196,160,12/1/2004,2 years
+1483,Jeremy Sochan,203,230,5/20/2003,4 years
+1484,Cormac Ryan,196,205,10/26/1998,1 year
+1485,Julian Reese,206,230,6/30/2003,1 year
+1486,Amir Coffey,201,210,6/17/1997,7 years
+1487,Blake Wesley,193,190,3/16/2003,4 years
+1488,E.J. Liddell,198,240,12/18/2000,3 years
+1489,Julian Phillips,198,201,11/5/2003,3 years
+1490,Keshad Johnson,198,230,6/23/2001,2 years
+1491,Jonathan Isaac,208,230,10/3/1997,7 years
+1492,Max Strus,196,215,3/28/1996,7 years
+1493,Kelly Olynyk,213,240,4/19/1991,13 years
+1494,Tyler Burton,201,215,2/11/2000,1 year
+1495,Malaki Branham,193,180,5/12/2003,4 years
+1496,Gary Harris,193,210,9/14/1994,12 years
+1497,Killian Hayes,193,195,7/27/2001,6 years
+1498,Malachi Smith,193,205,12/6/1999,1 year
+1499,Ron Harper Jr.,196,233,4/12/2000,4 years
+1500,Bez Mbeng,193,200,5/2/2003,1 year
+1501,Ariel Hukporti,213,246,4/12/2002,2 years
+1502,John Poulakidas,198,205,4/4/2003,1 year
+1503,Andre Jackson Jr.,198,209,11/13/2001,3 years
+1504,Pat Connaughton,196,209,1/6/1993,11 years
+1505,Nate Williams,196,205,2/12/1999,4 years
+1506,Leaky Black,198,209,6/14/1999,2 years
+1507,A.J. Lawson,198,179,7/15/2000,4 years
+1508,Jeremiah Robinson-Earl,206,240,11/3/2000,5 years
+1509,Dariq Whitehead,198,220,8/1/2004,3 years
+1510,MarJon Beauchamp,201,199,10/12/2000,4 years
+1511,Lindy Waters III,196,210,7/28/1997,5 years
+1512,Drew Timme,206,235,9/9/2000,2 years
+1513,KJ Simpson,188,189,8/8/2002,2 years
+1514,Lachlan Olbrich,203,236,12/30/2003,1 year
+1515,DeJon Jarreau,196,185,1/23/1998,3 years
+1516,Maxi Kleber,208,240,1/29/1992,9 years
+1517,Adama-Alpha Bal,201,190,12/18/2003,1 year
+1518,Chaz Lanier,190,206,12/19/2001,1 year
+1519,Garrison Mathews,196,215,10/24/1996,7 years
+1520,RayJ Dennis,185,180,3/30/2001,2 years
+1521,Lucas Williamson,193,205,1/28/1999,1 year
+1522,Christian Koloko,211,225,6/20/2000,3 years
+1523,Seth Curry,185,185,8/23/1990,12 years
+1524,Chris Youngblood,193,221,2/9/2002,1 year
+1525,JD Davison,185,195,10/3/2002,4 years
+1526,Jeff Green,203,235,8/28/1986,18 years
+1527,Mac McClung,188,185,1/6/1999,4 years
+1528,Isaiah Livers,198,232,7/28/1998,4 years
+1529,Yuki Kawamura,170,159,5/2/2001,2 years
+1530,Toby Okani,203,210,10/5/2001,1 year
+1531,Tyler Smith,206,224,11/2/2004,2 years
+1532,Nikola Topić,198,200,8/10/2005,1 year
+1533,Kevin McCullar Jr.,198,210,3/15/2001,2 years
+1534,Bradley Beal,193,207,6/28/1993,14 years
+1535,Pacôme Dadiet,206,210,7/27/2005,2 years
+1536,Tre Scott,203,225,11/25/1996,2 years
+1537,Trey Alexander,196,185,5/2/2003,2 years
+1538,Thanasis Antetokounmpo,201,219,7/18/1992,7 years
+1539,Chris Paul,183,175,5/6/1985,
+1540,Adou Thiero,201,220,5/8/2004,1 year
+1541,Kobe Bufkin,193,195,9/21/2003,3 years
+1542,Hunter Tyson,203,215,6/13/2000,3 years
+1543,Koby Brea,196,215,11/6/2002,1 year
+1544,Alondes Williams,193,210,6/19/1999,4 years
+1545,Xavier Tillman Sr.,203,245,1/12/1999,6 years
+1546,Johnny Juzang,201,226,3/17/2001,4 years
+1547,Miles Kelly,193,190,1/26/2003,1 year
+1548,Caleb Houstan,203,205,1/9/2003,4 years
+1549,Joe Ingles,203,220,10/2/1987,12 years
+1550,David Roddy,196,255,3/27/2001,4 years
+1551,Haywood Highsmith,196,220,12/9/1996,6 years
+1552,Tristan Enaruna,201,220,6/26/2001,1 year
+1553,Payton Sandfort,201,215,12/4/2002,1 year
+1554,Riley Minix,201,230,9/22/2000,2 years
+1555,Taj Gibson,206,232,6/24/1985,17 years
+1556,Nigel Hayes-Davis,201,254,12/16/1994,2 years
+1557,Omer Yurtseven,211,275,6/19/1998,4 years
+1558,Eric Gordon,190,215,12/25/1988,18 years
+1559,Patrick Baldwin Jr.,213,220,11/18/2002,4 years
+1560,DaQuan Jeffries,196,222,8/30/1997,7 years
+1561,Mason Plumlee,213,254,3/5/1990,13 years
+1562,Dereck Lively II,216,230,2/12/2004,3 years
+1563,Amari Williams,211,250,1/28/2002,1 year
+1564,Curtis Jones,190,195,12/4/2001,1 year
+1565,Luke Travers,198,207,9/3/2001,2 years
+1566,Antonio Reeves,196,205,11/20/2000,2 years
+1567,Andersson Garcia,201,220,8/23/2000,1 year
+1568,Josh Oduro,206,240,10/14/2000,1 year
+1569,Kadary Richmond,198,205,8/25/2001,1 year
+1570,Jahmir Young,183,185,10/7/2000,2 years
+1571,Bismack Biyombo,203,255,8/28/1992,15 years
+1572,Javonte Cooke,198,185,7/11/1999,1 year
+1573,Zyon Pullin,193,206,3/3/2001,2 years
+1574,Bobi Klintman,206,225,3/6/2003,2 years
+1575,Mark Sears,183,185,2/19/2002,1 year
+1576,Chris Boucher,203,200,1/11/1993,9 years
+1577,TyTy Washington Jr.,190,195,11/15/2001,4 years
+1578,Alex Antetokounmpo,203,214,8/27/2001,1 year
+1579,Monte Morris,188,183,6/27/1995,9 years
+1580,Kyle Lowry,183,196,3/25/1986,
+1581,Grant Nelson,213,215,3/18/2002,1 year
+1582,Norchad Omier,201,248,8/28/2001,1 year
+1583,Garrett Temple,196,195,5/8/1986,16 years
+1584,Keshon Gilbert,193,200,6/30/2003,1 year
+1585,Mouhamadou Gueye,206,210,7/6/1998,2 years
+1586,Emanuel Miller,196,215,6/19/2000,2 years
+1587,John Tonje,193,218,4/23/2001,1 year
+1588,Lawson Lovering,213,245,5/9/2003,1 year
+1589,Olivier Sarr,208,240,2/20/1999,4 years
+1590,Rocco Zikarsky,221,227,7/11/2006,1 year
+1591,Enrique Freeman,206,220,7/29/2000,2 years
+1592,Trey Jemison,208,270,11/28/1999,3 years
+1593,Skal Labissière,208,235,3/18/1996,6 years
+1594,Sean Pedulla,185,195,10/10/2002,1 year
+1595,Hunter Dickinson,216,255,11/25/2000,1 year
+1596,CJ Huntley,211,230,1/6/2002,1 year
+1597,Tristen Newton,196,202,4/26/2001,2 years
+1598,Dalano Banton,203,203,11/7/1999,5 years
+1599,Harrison Ingram,196,230,11/27/2002,2 years
+1600,Mo Bamba,213,231,5/12/1998,8 years
+1601,Johni Broome,206,244,7/19/2002,1 year
+1602,Wendell Moore Jr.,196,215,9/18/2001,4 years
+1603,Isaiah Stevens,180,185,11/1/2000,2 years
+1604,Mike Conley,185,175,10/11/1987,19 years
+1605,Dillon Jones,196,235,10/29/2001,2 years
+1606,Chris Livingston,198,220,10/15/2003,3 years
+1607,Isaac Jones,203,245,7/11/2000,2 years
+1608,Brandon Clarke,203,215,9/19/1996,7 years
+1609,Trevor Keels,190,215,8/26/2003,2 years
+1610,Jacob Toppin,206,200,5/8/2000,3 years
+1611,Vladislav Goldin,213,255,5/12/2001,1 year
+1612,Cody Martin,198,205,9/28/1995,7 years
+1613,Orlando Robinson,208,235,7/10/2000,4 years
+1614,Hunter Sallis,193,185,3/26/2003,1 year
+1615,Max Shulga,193,210,6/25/2002,1 year
+1616,Buddy Boeheim,196,205,11/11/1999,3 years
+1617,Hayden Gray,193,190,5/11/2003,1 year
+1618,Drew Peterson,203,205,11/9/1999,3 years
+1619,Dario Šarić,208,225,4/8/1994,9 years
+1620,Trentyn Flowers,206,185,3/8/2005,2 years
+1621,Markelle Fultz,193,209,5/29/1998,9 years
+1622,N'Faly Dante,211,230,10/19/2001,2 years
+1623,Colby Jones,198,207,5/28/2002,3 years
+1624,Stanley Umude,198,210,4/12/1999,4 years
+1625,Jahmyl Telfort,201,225,4/30/2001,1 year
+1626,Tosan Evbuomwan,203,217,2/16/2001,3 years
+1627,Chucky Hepburn,183,190,2/9/2003,1 year
+1628,Malik Beasley,193,187,11/26/1996,
+1629,Spencer Dinwiddie,196,215,4/6/1993,11 years
+1630,Keon Johnson,196,185,3/10/2002,4 years
+1631,Terry Rozier,185,190,3/17/1994,10 years
+1632,Jared Butler,190,193,8/25/2000,4 years
+1633,Ricky Council IV,198,207,8/3/2001,2 years
+1634,Brandon Boston Jr.,198,188,11/28/2001,4 years
+1635,Talen Horton-Tucker,193,234,11/25/2000,6 years
+1636,Alec Burks,196,214,7/20/1991,
+1637,Shake Milton,196,205,9/26/1996,7 years
+1638,Malcolm Brogdon,193,229,12/11/1992,
+1639,KJ Martin,198,215,1/6/2001,5 years
+1640,Vasilije Micić,190,188,1/13/1994,
+1641,Ben Simmons,208,245,7/20/1996,7 years
+1642,Lonnie Walker IV,193,204,12/14/1998,7 years
+1643,Bol Bol,221,220,11/16/1999,6 years
+1644,Richaun Holmes,206,235,10/15/1993,
+1645,Kai Jones,211,221,1/19/2001,
+1646,Danté Exum,196,214,7/13/1995,8 years
+1647,Kessler Edwards,203,203,8/9/2000,4 years
+1648,Daniel Theis,203,245,4/4/1992,
+1649,Trevelin Queen,196,190,2/25/1997,
+1650,Keion Brooks Jr.,201,210,8/7/2000,1 year
+1651,Reggie Jackson,188,208,4/16/1990,
+1652,Delon Wright,193,185,4/26/1992,10 years
+1653,Isaiah Wong,190,185,1/28/2001,
+1654,Jared Rhoden,196,210,8/27/1999,3 years
+1655,Maxwell Lewis,201,215,7/27/2002,
+1656,Patty Mills,188,180,8/11/1988,
+1657,Damion Baugh,193,194,8/3/2000,1 year
+1658,Jaden Springer,193,202,9/25/2002,4 years
+1659,Torrey Craig,196,221,12/19/1990,
+1660,Jalen Hood-Schifino,196,210,6/19/2003,2 years
+1661,Cam Reddish,201,230,9/1/1999,6 years
+1662,Lester Quiñones,196,208,11/16/2000,3 years
+1663,Elfrid Payton,190,195,2/22/1994,9 years
+1664,Damion Lee,198,210,10/21/1992,
+1665,Johnny Davis,193,195,2/27/2002,3 years
+1666,Jaylen Martin,198,216,1/28/2004,1 year
+1667,Alex Reese,206,245,5/21/1999,1 year
+1668,Moses Brown,218,258,10/13/1999,6 years
+1669,Lamar Stevens,201,230,7/9/1997,
+1670,Alex Len,213,250,6/16/1993,12 years
+1671,JT Thor,206,203,8/26/2002,
+1672,Tristan Thompson,206,254,3/13/1991,
+1673,Marcus Bagley,203,215,10/23/2001,1 year
+1674,Jaylen Nowell,193,201,7/9/1999,6 years
+1675,Adam Flagler,185,180,12/1/1999,2 years
+1676,Cole Swider,203,220,5/8/1999,3 years
+1677,Bruno Fernando,206,240,8/15/1998,6 years
+1678,Markieff Morris,206,245,9/2/1989,
+1679,Chuma Okeke,201,229,8/18/1998,5 years
+1680,Oshae Brissett,201,210,6/20/1998,
+1681,Kevin Knox,203,215,8/11/1999,7 years
+1682,Jaylen Sims,198,210,12/11/1998,
+1683,Emoni Bates,206,202,1/28/2004,2 years
+1684,Alex Ducas,201,220,12/11/2000,
+1685,Kylor Kelley,213,215,8/26/1997,1 year
+1686,Josh Richardson,196,200,9/15/1993,
+1687,Josh Christopher,193,215,12/8/2001,3 years
+1688,Marcus Garrett,196,205,11/9/1998,2 years
+1689,Matt Ryan,198,215,4/17/1997,4 years
+1690,Vlatko Čančar,203,236,4/10/1997,
+1691,Jazian Gortman,188,184,4/14/2003,1 year
+1692,Jae Crowder,198,235,7/6/1990,
+1693,Mason Jones,193,200,7/21/1998,
+1694,Jackson Rowe,198,210,1/4/1997,1 year
+1695,Justin Minaya,196,205,3/26/1999,3 years
+1696,David Duke Jr.,193,204,10/13/1999,4 years
+1697,Malachi Flynn,185,185,5/10/1998,5 years
+1698,Jack McVeigh,203,215,6/27/1996,
+1699,Armel Traoré,206,246,1/23/2003,
+1700,Jalen Bridges,201,225,5/14/2001,1 year
+1701,Liam Robbins,213,250,7/12/1999,1 year
+1702,James Johnson,201,240,2/20/1987,
+1703,Adama Sanogo,206,245,2/12/2002,
+1704,Anton Watson,203,225,10/6/2000,1 year
+1705,Phillip Wheeler,203,185,4/23/2002,1 year
+1706,PJ Dozier,198,212,10/25/1996,
+1707,Miles Norris,201,220,4/15/2000,
+1708,Isaiah Mobley,203,238,9/24/1999,
+1709,Taze Moore,196,195,6/29/1998,
+1710,Ulrich Chomche,211,235,12/30/2005,1 year
+1711,D.J. Carton,188,200,8/5/2000,2 years
+1712,Cui Yongxi,196,190,5/28/2003,
+1713,Braxton Key,201,225,2/14/1997,4 years
+1714,Quincy Olivari,188,201,5/27/2001,1 year
+1715,Yuri Collins,183,190,3/7/2001,1 year
+1716,Daishen Nix,190,226,2/13/2002,4 years
+1717,Terence Davis,193,201,5/16/1997,5 years
+1718,Jesse Edwards,213,236,3/18/2000,
+1719,Jalen McDaniels,206,205,1/31/1998,6 years
+1720,Jahlil Okafor,208,270,12/15/1995,
+1721,Terry Taylor,196,230,9/23/1999,4 years
+1722,Bojan Bogdanović,201,226,4/18/1989,
+1723,Gordon Hayward,201,225,3/23/1990,
+1724,Cedi Osman,201,230,4/8/1995,
+1725,Patrick Beverley,188,180,7/12/1988,
+1726,Dennis Smith Jr.,188,205,11/25/1997,7 years
+1727,Jordan Nwora,203,225,9/9/1998,4 years
+1728,Christian Wood,203,214,9/27/1995,
+1729,Chimezie Metu,208,225,3/22/1997,6 years
+1730,Marcus Morris,203,218,9/2/1989,
+1731,Dāvis Bertāns,208,225,11/12/1992,
+1732,Danilo Gallinari,208,236,8/8/1988,
+1733,Troy Brown Jr.,201,215,7/28/1999,6 years
+1734,Justin Holiday,198,180,4/5/1989,
+1735,Sasha Vezenkov,203,225,8/6/1995,
+1736,Evan Fournier,198,205,10/29/1992,
+1737,Eugene Omoruyi,198,235,2/14/1997,
+1738,Keita Bates-Diop,203,229,1/23/1996,6 years
+1739,Derrick Rose,190,200,10/4/1988,
+1740,JaVale McGee,213,270,1/19/1988,
+1741,Luka Šamanić,208,227,1/9/2000,
+1742,Jacob Gilyard,173,160,7/14/1998,
+1743,Mike Muscala,208,240,7/1/1991,
+1744,Skylar Mays,193,205,9/5/1997,4 years
+1745,Javon Freeman-Liberty,190,190,10/20/1999,
+1746,Nassir Little,198,220,2/11/2000,5 years
+1747,Aleksej Pokusevski,213,210,12/26/2001,
+1748,Danuel House Jr.,198,220,6/7/1993,
+1749,Ish Smith,183,175,7/5/1988,
+1750,Thaddeus Young,203,225,6/21/1988,
+1751,Robert Covington,201,209,12/14/1990,
+1752,Yuta Watanabe,206,215,10/13/1994,
+1753,Jontay Porter,211,240,11/15/1999,
+1754,Devonte' Graham,185,195,2/22/1995,6 years
+1755,Wesley Matthews,196,220,10/14/1986,
+1756,Reggie Bullock,198,205,3/16/1991,
+1757,Kenneth Lofton Jr.,198,275,8/14/2002,
+1758,Kira Lewis Jr.,185,170,4/6/2001,4 years
+1759,Furkan Korkmaz,201,202,7/24/1997,
+1760,Trent Forrest,193,210,6/12/1998,
+1761,Onuralp Bitim,198,215,3/31/1999,
+1762,Ashton Hagans,190,190,7/8/1999,
+1763,Cody Zeller,211,240,10/5/1992,
+1764,Jules Bernard,198,210,1/21/2000,1 year
+1765,Saben Lee,188,183,6/23/1999,4 years
+1766,Théo Maledon,193,175,6/12/2001,
+1767,Harry Giles,208,240,4/22/1998,
+1768,Terquavion Smith,193,160,12/31/2002,
+1769,James Bouknight,193,190,9/18/2000,3 years
+1770,Darius Bazley,206,216,6/12/2000,
+1771,AJ Griffin,198,220,8/25/2003,
+1772,Mãozinha Pereira,203,177,8/28/2000,
+1773,Jahmi'us Ramsey,190,190,6/9/2001,3 years
+1774,Boban Marjanović,224,290,8/15/1988,
+1775,Dylan Windler,201,196,9/22/1996,4 years
+1776,Armoni Brooks,190,195,6/5/1998,
+1777,Zavier Simpson,183,190,2/11/1997,
+1778,T.J. Warren,203,220,9/5/1993,
+1779,Joe Harris,198,220,9/6/1991,
+1780,Otto Porter Jr.,203,198,6/3/1993,
+1781,Marques Bolden,208,249,4/17/1998,3 years
+1782,Udoka Azubuike,211,270,9/17/1999,4 years
+1783,Ibou Badji,208,240,10/13/2002,1 year
+1784,Nate Hinton,196,210,6/8/1999,3 years
+1785,Nathan Mensah,206,230,4/9/1998,
+1786,Xavier Moon,183,165,1/2/1995,
+1787,Matthew Hurt,206,233,4/20/2000,
+1788,Jerome Robinson,196,190,2/22/1997,4 years
+1789,Admiral Schofield,196,241,3/30/1997,4 years
+1790,Amari Bailey,190,185,2/17/2004,
+1791,RaiQuan Gray,201,260,7/7/1999,
+1792,Ish Wainright,196,250,9/12/1994,
+1793,Dexter Dennis,196,210,2/9/1999,1 year
+1794,Kendall Brown,198,205,5/11/2003,2 years
+1795,Jermaine Samuels,198,230,11/13/1998,
+1796,Kobi Simmons,196,180,7/4/1997,
+1797,Malik Williams,211,250,8/26/1998,1 year
+1798,Darius Brown II,188,192,7/28/1999,1 year
+1799,Jeff Dowtin Jr.,190,177,5/10/1997,
+1800,Cory Joseph,188,200,8/20/1991,
+1801,Chris Duarte,196,190,6/13/1997,
+1802,P.J. Tucker,196,245,5/5/1985,
+1803,Damian Jones,208,245,6/30/1995,
+1804,Robin Lopez,216,281,4/1/1988,
+1805,Wenyen Gabriel,206,205,3/26/1997,
+1806,Greg Brown III,201,206,9/1/2001,
+1807,Alex Fudge,203,200,5/6/2003,1 year
+1808,D'Moi Hodge,190,188,12/20/1998,1 year
+1809,Seth Lundy,193,220,4/2/2000,1 year
+1810,Dereon Seabron,196,180,5/26/2000,2 years
+1811,Timmy Allen,198,210,1/9/2000,
+1812,Mamadi Diakite,206,228,1/21/1997,
+1813,Jordan Ford,185,175,5/26/1998,
+1814,Jason Preston,190,181,8/10/1999,2 years
+1815,Henri Drell,203,185,4/25/2000,
+1816,Keyontae Johnson,193,230,5/24/2000,1 year
+1817,R.J. Hampton,193,175,2/7/2001,
+1818,D.J. Wilson,208,231,2/19/1996,
+1819,Isaiah Thomas,175,185,2/7/1989,
+1820,Juan Toscano-Anderson,198,209,4/10/1993,
+1821,Charlie Brown Jr.,198,199,2/2/1997,4 years
+1822,Jack White,201,225,8/5/1997,
+1823,Lindell Wigginton,185,189,3/28/1998,
+1824,Frank Ntilikina,193,200,7/28/1998,
+1825,Izaiah Brockington,193,196,7/12/1999,
+1826,Kevon Harris,196,216,6/24/1997,2 years
+1827,Usman Garuba,203,229,3/9/2002,
+1828,Filip Petrušev,211,225,4/15/2000,
+1829,Hamidou Diallo,196,202,7/31/1998,6 years
+1830,Shaquille Harrison,193,195,10/6/1993,
+1831,Markquis Nowell,170,160,12/25/1999,
+1832,Joshua Primo,193,189,12/24/2002,
+1833,Ryan Arcidiacono,190,195,3/26/1994,
+1834,Malcolm Cazalon,198,185,8/27/2001,
+1835,Jalen Crutcher,185,175,7/18/1999,1 year
+1836,Andrew Funk,196,200,9/21/1999,
+1837,Kaiser Gates,203,223,11/8/1996,
+1838,Danny Green,198,215,6/22/1987,
+1839,Justin Jackson,203,220,3/28/1995,
+1840,Dmytro Skapintsev,216,260,5/12/1998,
+1841,Javonte Smart,193,205,6/3/1999,2 years
+1842,Terrence Ross,198,206,2/5/1991,
+1843,Kendrick Nunn,190,190,8/3/1995,
+1844,Victor Oladipo,190,213,5/4/1992,10 years
+1845,Anthony Lamb,198,227,1/20/1998,
+1846,John Wall,190,210,9/6/1990,
+1847,Will Barton,196,181,1/6/1991,
+1848,Edmond Sumner,193,190,12/31/1995,
+1849,JaMychal Green,206,227,6/21/1990,
+1850,Goran Dragić,193,190,5/6/1986,
+1851,Montrezl Harrell,201,240,1/26/1994,
+1852,Romeo Langford,196,216,10/25/1999,4 years
+1853,Rudy Gay,203,250,8/17/1986,
+1854,Willy Hernangómez,211,250,5/27/1994,
+1855,Austin Rivers,193,200,8/1/1992,
+1856,Duane Washington Jr.,188,197,3/24/2000,
+1857,George Hill,193,188,5/4/1986,
+1858,Dewayne Dedmon,208,245,8/12/1989,
+1859,Justise Winslow,198,222,3/26/1996,
+1860,Rodney McGruder,193,205,7/29/1991,
+1861,Stanley Johnson,198,242,5/29/1996,
+1862,Isaiah Roby,198,230,2/3/1998,4 years
+1863,Ricky Rubio,188,190,10/21/1990,
+1864,Blake Griffin,206,250,3/16/1989,
+1865,Raul Neto,188,180,5/19/1992,
+1866,Nathan Knight,203,253,9/20/1997,
+1867,Juancho Hernangómez,206,214,9/28/1995,
+1868,Gorgui Dieng,208,252,1/18/1990,
+1869,McKinley Wright IV,180,192,10/25/1998,
+1870,Theo Pinson,196,212,11/5/1995,
+1871,Bryn Forbes,188,205,7/23/1993,
+1872,Davon Reed,196,206,6/11/1995,
+1873,Frank Kaminsky,213,240,4/4/1993,
+1874,Kemba Walker,183,184,5/8/1990,
+1875,Serge Ibaka,211,235,9/18/1989,
+1876,Matthew Dellavedova,190,200,9/8/1990,
+1877,KZ Okpala,203,215,4/28/1999,4 years
+1878,John Butler,213,190,12/4/2002,1 year
+1879,Jarrett Culver,198,195,2/20/1999,4 years
+1880,Khem Birch,203,233,9/28/1992,
+1881,Meyers Leonard,213,260,2/27/1992,
+1882,Xavier Cooks,203,183,8/19/1995,
+1883,Nerlens Noel,208,220,4/10/1994,
+1884,Jordan Hall,201,220,1/14/2002,1 year
+1885,Udonis Haslem,203,235,6/9/1980,
+1886,Noah Vonleh,208,257,8/24/1995,
+1887,Gabe York,190,185,8/2/1993,
+1888,Jarrell Brantley,196,250,6/7/1996,3 years
+1889,Carlik Jones,183,174,12/23/1997,
+1890,Louis King,201,205,4/6/1999,
+1891,Michael Carter-Williams,198,205,10/10/1991,
+1892,Andre Iguodala,198,215,1/28/1984,
+1893,Xavier Sneed,196,215,12/21/1997,
+1894,Darius Days,201,245,10/20/1999,
+1895,Jay Scrubb,196,220,9/1/2000,3 years
+1896,Facundo Campazzo,178,195,3/23/1991,
+1897,Tyler Dorsey,193,180,2/18/1996,
+1898,Trevor Hudgins,183,180,3/23/1999,
+1899,Isaiah Todd,206,219,10/17/2001,
+1900,Joe Wieskamp,198,205,8/23/1999,
+1901,Chance Comanche,208,210,4/14/1996,
+1902,Alize Johnson,206,212,4/22/1996,5 years
+1903,Leandro Bolmaro,198,200,9/11/2000,
+1904,Vernon Carey Jr.,208,270,2/25/2001,3 years
+1905,Mfiondu Kabengele,208,250,8/14/1997,3 years
+1906,Marko Simonovic,213,220,10/15/1999,
+1907,Malcolm Hill,198,220,10/26/1995,2 years
+1908,Donovan Williams,198,190,9/6/2001,1 year
+1909,Devon Dotson,185,185,8/2/1999,
+1910,Jordan Schakel,198,200,6/13/1998,
+1911,Chima Moneke,196,223,12/24/1995,
+1912,Chris Silva,203,234,9/19/1996,
+1913,Sterling Brown,196,219,2/10/1995,
+1914,Deonte Burton,193,240,1/31/1994,
+1915,Michael Foster Jr.,203,250,1/16/2003,
+1916,Frank Jackson,190,205,5/4/1998,
+1917,Carmelo Anthony,201,238,5/29/1984,
+1918,Ben McLemore,190,195,2/11/1993,
+1919,LaMarcus Aldridge,211,250,7/19/1985,
+1920,Eric Bledsoe,185,214,12/9/1989,
+1921,Hassan Whiteside,213,265,6/13/1989,
+1922,Nemanja Bjelica,208,234,5/9/1988,
+1923,DeMarcus Cousins,208,270,8/13/1990,
+1924,Jeremy Lamb,196,180,5/30/1992,
+1925,Avery Bradley,190,180,11/26/1990,
+1926,Lance Stephenson,198,230,9/5/1990,
+1927,Dwight Howard,208,265,12/8/1985,
+1928,Lou Williams,188,175,10/27/1986,
+1929,CJ Elleby,198,200,6/16/2000,2 years
+1930,Eric Paschall,198,255,11/4/1996,3 years
+1931,Josh Jackson,203,207,2/10/1997,
+1932,D.J. Augustin,180,183,11/10/1987,
+1933,Wayne Ellington,193,207,11/29/1987,
+1934,DeAndre' Bembry,196,210,7/4/1994,
+1935,David Nwaba,196,219,1/14/1993,
+1936,Timothé Luwawu-Cabarrot,201,210,5/9/1995,
+1937,Maurice Harkless,201,220,5/11/1993,
+1938,Trey Burke,183,185,11/12/1992,
+1939,Ignas Brazdeikis,198,221,1/8/1999,3 years
+1940,Derrick Favors,206,265,7/15/1991,
+1941,Tomáš Satoranský,201,210,10/30/1991,
+1942,Tony Snell,198,213,11/10/1991,
+1943,Rajon Rondo,185,180,2/22/1986,
+1944,Keifer Sykes,180,167,12/30/1993,
+1945,Brandon Goodwin,183,180,10/2/1995,
+1946,Kelan Martin,196,230,8/3/1995,
+1947,Rodney Hood,203,208,10/20/1992,
+1948,Matt Thomas,190,190,8/4/1994,
+1949,Marquese Chriss,206,240,7/2/1997,
+1950,Kent Bazemore,193,195,7/1/1989,
+1951,Enes Freedom,208,250,5/20/1992,
+1952,Markus Howard,178,175,3/3/1999,
+1953,Elijah Hughes,196,215,3/10/1998,2 years
+1954,Killian Tillie,206,220,3/5/1998,
+1955,Paul Millsap,201,257,2/10/1985,
+1956,Jaylen Hoard,203,216,3/30/1999,
+1957,Justin Anderson,198,230,11/19/1993,
+1958,Gary Clark,198,225,11/16/1994,
+1959,Semi Ojeleye,198,240,12/5/1994,
+1960,Trevor Ariza,203,215,6/30/1985,
+1961,Keljin Blevins,193,200,11/24/1995,
+1962,Reggie Perry,203,250,3/21/2000,2 years
+1963,Georgios Kalaitzakis,203,192,1/2/1999,
+1964,Brad Wanamaker,190,210,7/25/1989,
+1965,Jake Layman,203,209,3/7/1994,
+1966,Justin Robinson,185,195,10/12/1997,
+1967,Greg Monroe,211,265,6/4/1990,
+1968,Kyle Guy,185,167,8/11/1997,3 years
+1969,Denzel Valentine,193,220,11/16/1993,
+1970,Mychal Mulder,190,195,6/12/1994,
+1971,Chris Chiozza,180,179,11/21/1995,
+1972,Tyler Cook,203,255,9/23/1997,
+1973,Alfonzo McKinnie,201,215,9/17/1992,
+1974,Jabari Parker,201,245,3/15/1995,
+1975,Cassius Stanley,196,190,8/18/1999,2 years
+1976,Devin Cannady,188,183,5/21/1996,
+1977,Hassani Gravett,188,188,7/16/1996,
+1978,Jamorko Pickett,206,206,12/24/1997,
+1979,Devontae Cacok,201,240,10/8/1996,
+1980,Kevin Pangos,185,179,1/26/1993,
+1981,Tim Frazier,185,170,11/1/1990,
+1982,Jared Harper,178,175,9/14/1997,
+1983,Didi Louzada,196,188,2/7/1999,
+1984,Willie Cauley-Stein,213,240,8/18/1993,
+1985,Abdel Nader,196,225,9/25/1993,
+1986,Melvin Frazier,198,210,8/30/1996,3 years
+1987,Brandon Knight,188,182,12/2/1991,
+1988,Paul Watson,198,210,12/30/1994,
+1989,Chaundee Brown Jr.,196,215,12/4/1998,
+1990,Quinndary Weatherspoon,190,207,9/10/1996,3 years
+1991,James Ennis III,198,215,7/1/1990,
+1992,Ed Davis,206,218,6/5/1989,
+1993,B.J. Johnson,201,200,12/21/1995,
+1994,Carsen Edwards,180,200,3/12/1998,3 years
+1995,Cameron Oliver,203,225,7/11/1996,
+1996,Wes Iwundu,198,195,12/20/1994,
+1997,Freddie Gillespie,206,245,6/14/1997,
+1998,Brodric Thomas,196,185,1/28/1997,
+1999,Malik Fitts,196,230,7/4/1997,
+2000,Rayjon Tucker,190,209,9/24/1997,
+2001,Derrick Walton,183,189,4/3/1995,
+2002,Gabriel Deck,198,231,2/8/1995,
+2003,Nik Stauskas,198,205,10/7/1993,
+2004,Tyrone Wallace,196,198,6/10/1994,
+2005,Tyler Johnson,190,186,5/7/1992,
+2006,RJ Nembhard Jr.,196,200,3/22/1999,1 year
+2007,Petr Cornelie,211,220,7/26/1995,
+2008,Sekou Doumbouya,203,230,12/23/2000,
+2009,Aleem Ford,203,220,12/22/1997,
+2010,Cameron McGriff,201,220,9/30/1997,
+2011,Cassius Winston,185,185,2/28/1998,2 years
+2012,Langston Galloway,185,200,12/9/1991,
+2013,Gabriel Lundberg,193,203,12/4/1994,
+2014,Yves Pons,196,206,5/7/1999,
+2015,Myles Powell,188,195,7/7/1997,
+2016,Isaac Bonga,203,180,11/8/1999,
+2017,Tacko Fall,229,311,12/10/1995,3 years
+2018,Cheick Diallo,203,219,9/13/1996,
+2019,Tremont Waters,178,175,1/10/1998,3 years
+2020,Daniel Oturu,208,240,9/20/1999,2 years
+2021,Solomon Hill,198,226,3/18/1991,
+2022,Malik Newman,190,190,2/21/1997,
+2023,Robert Woodard II,198,235,9/22/1999,2 years
+2024,Paris Bass,203,200,8/29/1995,
+2025,Dakota Mathias,193,200,7/11/1995,
+2026,Norvel Pelle,208,231,2/3/1993,
+2027,Craig Sword,190,196,1/16/1994,
+2028,Juwan Morgan,201,232,4/17/1997,
+2029,Miye Oni,196,206,8/4/1997,3 years
+2030,Wayne Selden,193,232,9/30/1994,
+2031,Moses Wright,203,226,12/23/1998,
+2032,Darren Collison,183,175,8/23/1987,
+2033,Damyean Dotson,196,210,5/6/1994,
+2034,Scotty Hopson,201,215,8/8/1989,
+2035,Chandler Hutchison,198,210,4/26/1996,4 years
+2036,Jemerrio Jones,196,174,4/9/1995,
+2037,Rob Edwards,196,205,1/20/1997,
+2038,Emmanuel Mudiay,190,200,3/5/1996,
+2039,Deividas Sirvydis,203,190,6/10/2000,
+2040,Joel Ayayi,193,180,3/5/2000,
+2041,Shaq Buchanan,190,190,1/30/1997,
+2042,Ahmad Caver,188,174,9/12/1996,1 year
+2043,Jarron Cumberland,196,205,9/22/1997,1 year
+2044,Aaron Henry,196,210,8/30/1999,
+2045,Joe Johnson,201,240,6/29/1981,
+2046,Jaylen Morris,196,185,9/19/1995,
+2047,Tyrell Terry,188,160,9/28/2000,2 years
+2048,George King,198,220,1/15/1994,2 years
+2049,Scottie Lewis,193,188,3/12/2000,
+2050,Cat Barber,188,180,7/25/1994,
+2051,Jordan Bell,203,216,1/7/1995,
+2052,Zylan Cheatham,196,220,11/17/1995,
+2053,Sam Dekker,206,230,5/6/1994,
+2054,Javin DeLaurier,208,237,4/7/1998,
+2055,Jaime Echenique,211,258,4/27/1997,
+2056,Tyler Hall,196,210,3/25/1997,
+2057,Feron Hunt,203,195,7/5/1999,
+2058,David Johnson,193,203,2/26/2001,
+2059,Arnoldas Kulboka,208,220,1/4/1998,
+2060,JaQuori McLaughlin,193,190,1/29/1998,1 year
+2061,C.J. Miles,198,220,3/18/1987,
+2062,Matt Mooney,190,199,2/7/1996,
+2063,Ade Murkey,196,200,1/29/1998,
+2064,Jaysean Paige,188,200,7/30/1994,
+2065,Trayvon Palmer,198,200,11/13/1994,
+2066,Emanuel Terry,206,220,8/21/1996,
+2067,Jon Teske,216,265,5/4/1997,
+2068,M.J. Walker,196,213,3/28/1998,1 year
+2069,Dwayne Bacon,198,221,8/30/1995,
+2070,Jeff Teague,190,195,6/10/1988,
+2071,JJ Redick,190,200,6/24/1984,
+2072,Aron Baynes,208,260,12/9/1986,
+2073,Chasson Randle,188,185,2/5/1993,
+2074,Marc Gasol,211,255,1/29/1985,
+2075,Mike Scott,201,237,7/16/1988,
+2076,Patrick Patterson,203,235,3/14/1989,
+2077,Justin James,198,190,1/24/1997,2 years
+2078,JaKarr Sampson,201,214,3/20/1993,
+2079,Nicolò Melli,206,236,1/26/1991,
+2080,E'Twaun Moore,190,191,2/25/1989,
+2081,Nico Mannion,188,190,3/14/2001,1 year
+2082,Glenn Robinson III,198,222,1/8/1994,
+2083,Al-Farouq Aminu,206,220,9/21/1990,
+2084,Mike James,185,175,8/18/1990,
+2085,Jalen Harris,196,195,8/14/1998,1 year
+2086,Josh Hall,206,190,10/8/2000,
+2087,Khyri Thomas,190,210,5/8/1996,3 years
+2088,Quinn Cook,185,180,3/23/1993,
+2089,Donta Hall,208,230,8/7/1997,
+2090,Darius Miller,198,225,3/21/1990,
+2091,Justin Patton,211,241,6/14/1997,
+2092,Ersan İlyasova,206,235,5/15/1987,
+2093,Jordan Bone,188,180,11/5/1997,2 years
+2094,Yogi Ferrell,183,178,5/9/1993,
+2095,Robert Franks,201,225,12/18/1996,
+2096,Sindarius Thornwell,193,215,11/15/1994,
+2097,Sean McDermott,198,195,11/3/1996,1 year
+2098,Rodions Kurucs,206,228,2/5/1998,
+2099,Thon Maker,213,221,2/25/1997,
+2100,Alen Smailagić,208,215,8/18/2000,
+2101,Rondae Hollis-Jefferson,198,217,1/3/1995,
+2102,Frank Mason III,180,190,4/3/1994,
+2103,Cristiano Felício,211,270,7/7/1992,
+2104,Jeremiah Martin,188,185,6/19/1996,
+2105,Tyler Bey,201,215,2/10/1998,1 year
+2106,Grant Riller,188,190,2/8/1997,1 year
+2107,Bruno Caboclo,206,218,9/21/1995,
+2108,Anthony Tolliver,203,240,6/1/1985,
+2109,Elijah Bryant,196,210,4/19/1995,
+2110,Henry Ellenson,208,240,1/13/1997,
+2111,Adam Mokoka,193,190,7/18/1998,
+2112,James Nunnally,201,205,7/14/1990,
+2113,Cameron Reynolds,201,225,2/7/1995,
+2114,Axel Toupane,201,210,7/23/1992,
+2115,Amida Brimah,208,230,2/11/1994,
+2116,Anderson Varejão,211,273,9/28/1982,
+2117,Kostas Antetokounmpo,208,200,11/20/1997,3 years
+2118,T.J. Leaf,208,222,4/30/1997,
+2119,Karim Mané,190,190,5/16/2000,
+2120,Ty-Shon Alexander,190,195,7/16/1998,
+2121,Nate Darling,196,200,8/30/1998,
+2122,Vincent Poirier,213,235,10/17/1993,
+2123,Jared Dudley,198,237,7/10/1985,
+2124,Andre Roberson,201,210,12/4/1991,
+2125,Jalen Lecque,193,185,6/13/2000,
+2126,Patrick McCaw,201,181,10/25/1995,
+2127,Ray Spalding,208,215,3/11/1997,2 years
+2128,Brian Bowen,201,199,10/2/1998,
+2129,Jaylen Adams,183,225,5/4/1996,
+2130,Terrance Ferguson,198,190,5/17/1998,
+2131,Iman Shumpert,196,212,6/26/1990,
+2132,Will Magnay,208,234,6/10/1998,
+2133,Anžejs Pasečņiks,216,229,12/20/1995,
+2134,Greg Whittington,203,210,2/7/1993,
