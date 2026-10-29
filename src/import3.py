@@ -1,6 +1,5 @@
 
 from pathlib import Path
-
 import pandas as pd
 from sqlalchemy import select
 
@@ -9,7 +8,6 @@ from src.models import TeamStats
 
 
 def import_team_stats():
-    # مسیر فایل CSV
     project_dir = Path(__file__).resolve().parent.parent
     csv_path = project_dir / "data" / "All_Teams_Main.csv"
 
@@ -18,7 +16,6 @@ def import_team_stats():
             f"فایل CSV پیدا نشد: {csv_path}"
         )
 
-    # خواندن فایل CSV
     encodings = ["utf-8-sig", "cp1252", "latin1"]
 
     for encoding in encodings:
@@ -31,10 +28,8 @@ def import_team_stats():
     else:
         raise ValueError("کدگذاری فایل CSV قابل تشخیص نیست.")
 
-    # حذف فاصله‌های اضافی از نام ستون‌ها
     df.columns = df.columns.str.strip()
 
-    # تبدیل نام ستون‌های CSV به نام ستون‌های مدل
     df = df.rename(columns={
         "season id": "season_id",
         "team id": "team_id",
@@ -65,41 +60,22 @@ def import_team_stats():
             f"ستون‌های موجود: {df.columns.tolist()}"
         )
 
-    # آماده‌سازی شناسه‌ها
     df = df.dropna(subset=["season_id", "team_id"]).copy()
 
-    df["season_id"] = pd.to_numeric(
-        df["season_id"], errors="raise"
-    ).astype(int)
+    df["season_id"] = pd.to_numeric(df["season_id"], errors="raise").astype(int)
 
-    df["team_id"] = pd.to_numeric(
-        df["team_id"], errors="raise"
-    ).astype(int)
+    df["team_id"] = pd.to_numeric(df["team_id"], errors="raise").astype(int)
 
-    # تبدیل ستون‌های عددی
-    numeric_columns = [
-        "win_loss_pct",
-        "simple_rating_system",
-        "relative_pace",
-        "relative_offensive_rating",
-        "relative_defensive_rating",
-    ]
+    numeric_columns = ["win_loss_pct", "simple_rating_system", "relative_pace", "relative_offensive_rating", "relative_defensive_rating",]
 
     for column in numeric_columns:
         df[column] = pd.to_numeric(df[column], errors="raise")
 
-    # حفظ مقادیر متنی مانند "1st of 5"
-    df["finish"] = df["finish"].where(
-        df["finish"].notna(), None
-    )
+    df["finish"] = df["finish"].where(df["finish"].notna(), None)
 
-    # هر تیم در هر فصل باید فقط یک رکورد داشته باشد
     if df.duplicated(subset=["team_id", "season_id"]).any():
-        raise ValueError(
-            "برای یک تیم و فصل، رکورد تکراری در فایل CSV وجود دارد."
-        )
+        raise ValueError("برای یک تیم و فصل، رکورد تکراری در فایل CSV وجود دارد.")
 
-    # انتقال داده‌ها به دیتابیس
     with SessionLocal() as session:
         try:
             inserted = 0
@@ -109,13 +85,8 @@ def import_team_stats():
                 team_id = int(row["team_id"])
                 season_id = int(row["season_id"])
 
-                statement = select(TeamStats).where(
-                    TeamStats.team_id == team_id,
-                    TeamStats.season_id == season_id,
-                )
-
+                statement = select(TeamStats).where(TeamStats.team_id == team_id, TeamStats.season_id == season_id,)
                 record = session.scalar(statement)
-
                 values = {
                     "win_loss_pct": (
                         float(row["win_loss_pct"])
@@ -150,11 +121,7 @@ def import_team_stats():
                 }
 
                 if record is None:
-                    record = TeamStats(
-                        team_id=team_id,
-                        season_id=season_id,
-                        **values,
-                    )
+                    record = TeamStats(team_id=team_id, season_id=season_id, **values)
                     session.add(record)
                     inserted += 1
                 else:

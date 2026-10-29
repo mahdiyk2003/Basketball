@@ -8,7 +8,6 @@ from src.models import TournamentInfo
 
 
 def import_tournament_info():
-    # مسیر فایل CSV
     project_dir = Path(__file__).resolve().parent.parent
     csv_path = project_dir / "data" / "nba_seasons.csv"
 
@@ -17,7 +16,6 @@ def import_tournament_info():
             f"فایل CSV پیدا نشد: {csv_path}"
         )
 
-    # خواندن فایل با بررسی کدگذاری
     encodings = ["utf-8-sig", "cp1252", "latin1"]
 
     for encoding in encodings:
@@ -30,10 +28,8 @@ def import_tournament_info():
     else:
         raise ValueError("کدگذاری فایل CSV قابل تشخیص نیست.")
 
-    # حذف فاصله‌های اضافی از نام ستون‌ها
     df.columns = df.columns.str.strip()
 
-    # یکسان‌سازی نام ستون‌ها با مدل دیتابیس
     df = df.rename(columns={
         "Season id": "season_id",
         "Season": "season",
@@ -57,17 +53,14 @@ def import_tournament_info():
             f"ستون‌های موجود: {df.columns.tolist()}"
         )
 
-    # حذف ردیف‌هایی که شناسه یا نام فصل ندارند
     df = df.dropna(
         subset=["season_id", "season"]
     ).copy()
 
-    # تبدیل شناسه فصل به عدد صحیح
     df["season_id"] = pd.to_numeric(
         df["season_id"], errors="raise"
     ).astype(int)
 
-    # پاک‌سازی فاصله‌های اضافی
     df["season"] = df["season"].astype(str).str.strip()
 
     for column in ["champion", "mvp_candidates"]:
@@ -83,19 +76,16 @@ def import_tournament_info():
             )
         )
 
-    # بررسی تکراری نبودن شناسه فصل
     if df["season_id"].duplicated().any():
         raise ValueError(
             "شناسه فصل در فایل CSV تکراری است."
         )
 
-    # بررسی تکراری نبودن نام فصل
     if df["season"].duplicated().any():
         raise ValueError(
             "نام فصل در فایل CSV تکراری است."
         )
 
-    # ورود اطلاعات به دیتابیس
     with SessionLocal() as session:
         try:
             inserted = 0

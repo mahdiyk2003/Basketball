@@ -1,23 +1,17 @@
 
 from pathlib import Path
-
 import pandas as pd
-
 from src.database import SessionLocal
 from src.models import PlayerStats
 
 
 def import_player_stats():
-    # مسیر فایل CSV
     project_dir = Path(__file__).resolve().parent.parent
     csv_path = project_dir / "data" / "nba_totals.csv"
 
     if not csv_path.exists():
-        raise FileNotFoundError(
-            f"فایل CSV پیدا نشد: {csv_path}"
-        )
+        raise FileNotFoundError(f"فایل CSV پیدا نشد: {csv_path}")
 
-    # خواندن فایل CSV
     encodings = ["utf-8-sig", "cp1252", "latin1"]
 
     for encoding in encodings:
@@ -30,10 +24,8 @@ def import_player_stats():
     else:
         raise ValueError("کدگذاری فایل CSV قابل تشخیص نیست.")
 
-    # پاک‌سازی نام ستون‌ها
     df.columns = df.columns.str.strip()
 
-    # تبدیل نام ستون‌های CSV به نام ستون‌های دیتابیس
     df = df.rename(columns={
         "player id": "player_id",
         "games": "games_played",
@@ -94,23 +86,13 @@ def import_player_stats():
             f"ستون‌های موجود: {df.columns.tolist()}"
         )
 
-    # حذف ردیف‌های فاقد کلیدهای ارتباطی
-    key_columns = [
-        "player_id",
-        "team_id",
-        "season_id",
-        "position_id",
-    ]
+    key_columns = ["player_id", "team_id", "season_id", "position_id"]
 
     df = df.dropna(subset=key_columns).copy()
 
-    # تبدیل شناسه‌ها به عدد صحیح
     for column in key_columns:
-        df[column] = pd.to_numeric(
-            df[column], errors="raise"
-        ).astype(int)
+        df[column] = pd.to_numeric(df[column], errors="raise").astype(int)
 
-    # تبدیل ستون‌های آماری به مقادیر عددی
     numeric_columns = [
         "games_played",
         "minutes_played",
@@ -133,30 +115,16 @@ def import_player_stats():
     ]
 
     for column in numeric_columns:
-        df[column] = pd.to_numeric(
-            df[column], errors="raise"
-        )
+        df[column] = pd.to_numeric(df[column], errors="raise")
 
-    # بررسی رکورد تکراری برای بازیکن، تیم و فصل
     if df.duplicated(
-        subset=["player_id", "team_id", "season_id"]
-    ).any():
-        raise ValueError(
-            "برای ترکیب بازیکن، تیم و فصل رکورد تکراری وجود دارد."
-        )
+        subset=["player_id", "team_id", "season_id"]).any():
+        raise ValueError("برای ترکیب بازیکن، تیم و فصل رکورد تکراری وجود دارد.")
 
-    # فرض موقت: awards برابر 1 یعنی نامزد MVP است
     awards = pd.to_numeric(df["awards"], errors="raise")
-
-    if not awards.dropna().isin([0, 1]).all():
-        raise ValueError(
-            "ستون awards فقط شامل 0 و 1 نیست؛ "
-            "معنای آن را بررسی کن و تبدیل MVP را تغییر بده."
-        )
 
     df["mvp_candidate"] = awards.eq(1)
 
-    # ورود اطلاعات به دیتابیس
     with SessionLocal() as session:
         try:
             inserted = 0
@@ -170,8 +138,7 @@ def import_player_stats():
                 record = session.query(PlayerStats).filter_by(
                     player_id=player_id,
                     team_id=team_id,
-                    season_id=season_id,
-                ).first()
+                    season_id=season_id,).first()
 
                 values = {
                     column: (
@@ -182,12 +149,8 @@ def import_player_stats():
                     for column in numeric_columns
                 }
 
-                # فعلاً در CSV نمونه ستون rebounds وجود ندارد
-                values["mvp_candidate"] = bool(
-                    row["mvp_candidate"]
-                )
+                values["mvp_candidate"] = bool(row["mvp_candidate"])
 
-                # تبدیل مقادیر NumPy به نوع‌های معمول پایتون
                 for column, value in values.items():
                     if value is not None and pd.notna(value):
                         if column in {
@@ -214,8 +177,7 @@ def import_player_stats():
                         team_id=team_id,
                         season_id=season_id,
                         position_id=int(row["position_id"]),
-                        **values,
-                    )
+                        **values)
                     session.add(record)
                     inserted += 1
                 else:
@@ -228,7 +190,7 @@ def import_player_stats():
 
             session.commit()
 
-            print("انتقال اطلاعات با موفقیت انجام شد.")
+            print("انتقال انجام شد")
             print(f"رکوردهای جدید: {inserted}")
             print(f"رکوردهای به‌روزرسانی‌شده: {updated}")
 

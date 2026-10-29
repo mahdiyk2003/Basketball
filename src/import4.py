@@ -1,23 +1,17 @@
 
 from pathlib import Path
-
 import pandas as pd
-
 from src.database import SessionLocal
 from src.models import PlayerInfo
 
 
 def import_player_info():
-    # مسیر فایل CSV
     project_dir = Path(__file__).resolve().parent.parent
     csv_path = project_dir / "data" / "nba_players.csv"
 
     if not csv_path.exists():
-        raise FileNotFoundError(
-            f"فایل CSV پیدا نشد: {csv_path}"
-        )
+        raise FileNotFoundError(f"فایل CSV پیدا نشد: {csv_path}")
 
-    # خواندن فایل CSV
     encodings = ["utf-8-sig", "cp1252", "latin1"]
 
     for encoding in encodings:
@@ -30,24 +24,11 @@ def import_player_info():
     else:
         raise ValueError("کدگذاری فایل CSV قابل تشخیص نیست.")
 
-    # پاک‌سازی نام ستون‌ها
     df.columns = df.columns.str.strip()
 
-    # یکسان‌سازی نام ستون‌ها
-    df = df.rename(columns={
-        "player id": "player_id",
-        "player_name": "name",
-        "born_date": "birth_date",
-    })
+    df = df.rename(columns={"player id": "player_id", "player_name": "name", "born_date": "birth_date"})
 
-    required_columns = {
-        "player_id",
-        "name",
-        "height",
-        "weight",
-        "birth_date",
-        "experience",
-    }
+    required_columns = {"player_id", "name", "height", "weight", "birth_date", "experience"}
 
     missing_columns = required_columns - set(df.columns)
 
@@ -58,60 +39,28 @@ def import_player_info():
             f"ستون‌های موجود: {df.columns.tolist()}"
         )
 
-    # حذف ردیف‌های فاقد شناسه یا نام بازیکن
-    df = df.dropna(
-        subset=["player_id", "name"]
-    ).copy()
+    df = df.dropna(subset=["player_id", "name"]).copy()
 
-    # تبدیل شناسه به عدد صحیح
-    df["player_id"] = pd.to_numeric(
-        df["player_id"], errors="raise"
-    ).astype(int)
+    df["player_id"] = pd.to_numeric(df["player_id"], errors="raise").astype(int)
 
-    # پاک‌سازی نام بازیکنان
     df["name"] = df["name"].astype(str).str.strip()
 
-    # تبدیل قد و وزن به مقادیر عددی
     for column in ["height", "weight"]:
-        df[column] = pd.to_numeric(
-            df[column], errors="raise"
-        )
+        df[column] = pd.to_numeric(df[column], errors="raise")
 
-    # تبدیل سابقه بازی از "6 years" به 6
     experience_text = (
-        df["experience"]
-        .astype("string")
-        .str.strip()
-    )
+        df["experience"].astype("string").str.strip())
 
-    df["experience"] = pd.to_numeric(
-        experience_text.str.extract(
-            r"(\d+)"
-        )[0],
-        errors="coerce",
-    ).astype("Int64")
+    df["experience"] = pd.to_numeric(experience_text.str.extract(r"(\d+)")[0],errors="coerce").astype("Int64")
 
-    # تبدیل تاریخ تولد به رشته
-    # فرمت اصلی CSV حفظ می‌شود؛ مثل 11/4/2000
-    df["birth_date"] = df["birth_date"].where(
-        df["birth_date"].notna(), None
-    )
+    df["birth_date"] = df["birth_date"].where(df["birth_date"].notna(), None)
 
     df["birth_date"] = df["birth_date"].map(
-        lambda value: (
-            str(value).strip()
-            if pd.notna(value)
-            else None
-        )
-    )
+        lambda value: (str(value).strip()if pd.notna(value)else None))
 
-    # بررسی شناسه‌های تکراری
     if df["player_id"].duplicated().any():
-        raise ValueError(
-            "شناسه بازیکن در فایل CSV تکراری است."
-        )
+        raise ValueError("شناسه بازیکن در فایل CSV تکراری است.")
 
-    # انتقال داده‌ها به دیتابیس
     with SessionLocal() as session:
         try:
             inserted = 0
@@ -120,9 +69,7 @@ def import_player_info():
             for _, row in df.iterrows():
                 player_id = int(row["player_id"])
 
-                player = session.get(
-                    PlayerInfo, player_id
-                )
+                player = session.get(PlayerInfo, player_id)
 
                 values = {
                     "name": row["name"],
@@ -159,7 +106,7 @@ def import_player_info():
 
             session.commit()
 
-            print("انتقال اطلاعات با موفقیت انجام شد.")
+            print("انتقال انجام شد")
             print(f"بازیکنان جدید: {inserted}")
             print(f"بازیکنان به‌روزرسانی‌شده: {updated}")
 
